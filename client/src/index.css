@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", serif;
+  font-style: normal;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #212121;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #303030;
+  outline: 1px solid #303030;
+  border-radius: 10px;
+}
